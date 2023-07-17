@@ -221,6 +221,21 @@ main{
     width: 165px;
 }
 
+.end{
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    margin: 0 240px;
+    padding: 30px 0;
+    margin-bottom: 240px;
+}
+
+.end p{
+    color: #424242;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
 /* responsive */
 
 @media  screen and (max-width:576px){
@@ -254,6 +269,10 @@ main{
         position: static;
         max-width: 300px;
     }
+    .end{
+        padding: 10px;
+        margin: 0;
+    }
 }
 
 /* tablet or medium devices */
@@ -265,5 +284,9 @@ main{
     nav,.team-container,.sponsors-images,.features
     {
         flex-direction: column;
+    }
+    .end{
+        padding: 10px;
+        margin: 0;
     }
 }
